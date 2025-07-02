@@ -1,6 +1,8 @@
 # PDF Merger Tool 🧩
 
 Ten prosty skrypt łączy pliki PDF w jeden dokument, automatycznie tworząc foldery według daty oraz usuwając pliki źródłowe po scaleniu.
+Przed pierwszym użyciem należy uzupełnić ścieżkę gdzie są pliki .pdf. Nowo powstały folder powstanie w tym samym folderze. 
+Skrypt musi zostać uruchomiony w folderze gdzie znajdują się pliki pdf.
 
 ## Funkcje:
 - scalanie plików PDF (z użyciem PyPDF2)
@@ -17,8 +19,3 @@ Ten prosty skrypt łączy pliki PDF w jeden dokument, automatycznie tworząc fol
 - Python 3
 - PyPDF2
 - os, datetime
-
-## Do zrobienia:
-- dodanie GUI (Tkinter)
-- wsparcie dla wielu folderów
-- wybór plików przez użytkownika
