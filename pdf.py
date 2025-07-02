@@ -6,7 +6,7 @@ import glob
 # 1. Przygotowanie daty i folderu docelowego
 wczorajsza_data = datetime.now() - timedelta(days=1)
 nazwa_miesiaca = wczorajsza_data.strftime("%m_%B")  # np. '06_Czerwiec'
-folder_bazowy = r'C:\Users\bgrzybowski\Desktop\listy\magazyn\listy obecności\2025'
+folder_bazowy = r'C:\ścieżka\do\pdf' #<- wprowadź ściżkę gdzie są zapisane pdfy. W tym miejscu powstanie folder docelowy.
 folder_docelowy = os.path.join(folder_bazowy, nazwa_miesiaca)
 
 if not os.path.exists(folder_docelowy):
